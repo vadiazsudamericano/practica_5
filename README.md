@@ -20,7 +20,7 @@ Para esta práctica, se han utilizado tres pilares fundamentales de Docker:
 Plantillas de solo lectura que contienen las instrucciones para crear un contenedor. En este caso, utilizamos imágenes oficiales de MySQL, WordPress y phpMyAdmin.
 
 ### Redes (Docker Networks)
-Por defecto, los contenedores están aislados. La creación de una red tipo `bridge` personalizada permite que los contenedores se descubran entre sí mediante el nombre del contenedor (DNS interno), facilitando la comunicación entre el servidor web y la base de datos sin exponer puertos sensibles al exterior.
+Por defecto, los contenedores están aislados. La creación de una red tipo bridge personalizada permite que los contenedores se descubran entre sí mediante el nombre del contenedor (DNS interno), facilitando la comunicación entre el servidor web y la base de datos sin exponer puertos sensibles al exterior.
 
 ### Volúmenes (Docker Volumes)
 Son el mecanismo preferido para persistir los datos generados y utilizados por los contenedores. Sin volúmenes, cualquier cambio en la base de datos o archivos subidos a WordPress se perdería al eliminar el contenedor. Los volúmenes desacoplan el ciclo de vida del dato del ciclo de vida del contenedor.
@@ -33,9 +33,9 @@ La arquitectura implementada sigue el patrón de microservicios: un contenedor s
 
 Para realizar esta práctica con éxito, el estudiante debe dominar los siguientes temas:
 
-- Comandos Linux: Navegación por terminal (`cd`, `ls`), gestión de permisos y sintaxis básica.
+- Comandos Linux: Navegación por terminal (cd, ls), gestión de permisos y sintaxis básica.
 - Fundamentos de Docker: Diferencia entre imagen, contenedor, volumen y red.
-- Redes TCP/IP: Conceptos de puertos (`80`, `8080`, `3306`) y direccionamiento IP.
+- Redes TCP/IP: Conceptos de puertos (80, 8080, 3306) y direccionamiento IP.
 - Manejo de Navegador: Uso de herramientas de desarrollador y gestión de puertos en entornos cloud.
 - Conceptos de Bases de Datos: Usuario root, nombres de esquemas y persistencia de datos.
 
