@@ -128,13 +128,11 @@ docker run -d --name site_wordpress \
 
 ### Captura del resultado final (Escritorio de WordPress)
 
-
+![Dashboard WordPress](wordpress.png)
 
 ### Captura de la base de datos (phpMyAdmin)
 
-
-
----
+![phpmyadmin](phpmyadmin.png)
 
 ## 10. Bibliografía
 
