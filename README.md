@@ -120,7 +120,8 @@ docker run -d --name site_wordpress \
   -p 80:80 \
   wordpress:latest
 ```
-
+### Figura 1-1
+![Diagrama de puertos](diagrama_practica5.png)
 
 ## 9. Resultados esperados
 
