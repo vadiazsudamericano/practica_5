@@ -3,12 +3,12 @@
 ## 1. Título
 **Implementación de un CMS WordPress mediante Arquitectura de Microservicios con Docker: Orquestación de Redes, Volúmenes y Contenedores.**
 
----
+
 
 ## 2. Tiempo de duración
 **120 minutos.**
 
----
+
 
 ## 3. Fundamentos
 
@@ -39,7 +39,6 @@ Para realizar esta práctica con éxito, el estudiante debe dominar los siguient
 - Manejo de Navegador: Uso de herramientas de desarrollador y gestión de puertos en entornos cloud.
 - Conceptos de Bases de Datos: Usuario root, nombres de esquemas y persistencia de datos.
 
----
 
 ## 5. Objetivos a alcanzar
 
@@ -49,7 +48,6 @@ Para realizar esta práctica con éxito, el estudiante debe dominar los siguient
 - Integrar phpMyAdmin como herramienta de gestión gráfica de base de datos.
 - Finalizar la instalación de un CMS WordPress funcional conectado a la infraestructura creada.
 
----
 
 ## 6. Equipo necesario
 
@@ -59,7 +57,6 @@ Para realizar esta práctica con éxito, el estudiante debe dominar los siguient
 - Entorno de ejecución: Killercoda Playground (Ubuntu 22.04 con Docker preinstalado).
 - Docker Versión: 20.10.x o superior.
 
----
 
 ## 7. Material de apoyo
 
@@ -67,7 +64,7 @@ Para realizar esta práctica con éxito, el estudiante debe dominar los siguient
 - Docker Hub (Repositorios oficiales de MySQL y WordPress).
 - Cheat Sheet de comandos básicos de Linux y Docker.
 
----
+
 
 ## 8. Procedimiento
 
@@ -124,10 +121,6 @@ docker run -d --name site_wordpress \
   wordpress:latest
 ```
 
-### Figura 1-1
-**Diagrama de interconexión de contenedores, redes y volúmenes.**
-
----
 
 ## 9. Resultados esperados
 
